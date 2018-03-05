@@ -10,7 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt test/fixture",
+    "dev": "cross-env PORT=3111 nuxt test/fixture",
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "babel-plugin-transform-imports": "latest",
+    "cross-env": "^5.1.3",
     "stylus": "latest",
     "stylus-loader": "latest",
     "vuetify": "latest"

@@ -1,6 +1,6 @@
 {
   "name": "manablox-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "UI Toolkit for manablox based on vuetify",
   "main": "lib/module.js",
   "repository": "git@github.com:daspete/manablox-ui.git",
